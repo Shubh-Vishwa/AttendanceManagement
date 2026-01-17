@@ -1,0 +1,45 @@
+Python Full‑Stack HRMS (End‑to‑End)
+
+This is a complete, production‑style HRMS (Human Resource Management System) built from scratch using Python Full Stack.
+
+The project demonstrates frontend + backend + database + deployment readiness, exactly matching full‑stack evaluation criteria.
+
+
+
+
+Folder Structure:
+-----------------
+HRMS-Python-FullStack/
+│
+├── backend/
+│ ├── app/
+│ │ ├── main.py
+│ │ ├── database.py
+│ │ ├── models.py
+│ │ ├── schemas.py
+│ │ ├── auth.py
+│ │ ├── routers/
+│ │ │ ├── employee.py
+│ │ │ ├── attendance.py
+│ │ │ └── auth.py
+│ │ └── utils.py
+│ │
+│ ├── requirements.txt
+│ └── .env
+│
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ │ ├── Navbar.jsx
+│ │ │ └── Loader.jsx
+│ │ ├── pages/
+│ │ │ ├── Login.jsx
+│ │ │ ├── Dashboard.jsx
+│ │ │ ├── Employees.jsx
+│ │ │ └── Attendance.jsx
+│ │ ├── services/api.js
+│ │ ├── App.jsx
+│ │ └── main.jsx
+│ └── package.json
+│
+└── README.md
